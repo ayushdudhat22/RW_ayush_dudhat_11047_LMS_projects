@@ -1,0 +1,172 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>StreamX Hub</title>
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+        <header class="navbar-custom">
+            <div class="container d-flex justify-content-between align-items-center">
+
+                <div class="logo">
+                    <h1>StreamX Hub</h1>
+                </div>
+
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Trending</a></li>
+                        <li><a href="#">Top Rated</a></li>
+                        <li><a href="#">Anime</a></li>
+                    </ul>
+                </nav>
+
+                <div class="search">
+                    <input type="text" placeholder="Search Movies...">
+                </div>
+
+            </div>
+        </header>
+
+        <!-- Hero Slider -->
+        <section class="hero-slider">
+
+            <div class="slides" id="slides">
+
+                <div class="slide">
+                    <img src="https://wallpaperaccess.com/full/3819034.jpg">
+                    <div class="hero-content">
+                        <h1>Unlimited Entertainment</h1>
+                        <p>Watch Latest Movies & Series</p>
+                        <button>Watch Now</button>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="https://wallpaperaccess.com/full/1567666.jpg">
+                    <div class="hero-content">
+                        <h1>Top Trending Shows</h1>
+                        <p>Enjoy Premium Content</p>
+                        <button>Explore</button>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="https://wallpaperaccess.com/full/5651980.jpg">
+                    <div class="hero-content">
+                        <h1>Watch Anywhere</h1>
+                        <p>Movies • Anime • Series</p>
+                        <button>Start Now</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="prev" onclick="moveSlide(-1)">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <button class="next" onclick="moveSlide(1)">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+        </section>
+
+
+        <!-- Top Rated -->
+
+       <section class="movie-section">
+
+    <h2> Top Rated</h2>
+
+    <div class="slider-container">
+
+       
+
+        <div class="movie-row" id="topRatedRow">
+
+            <div class="movie-card">
+                <img src="https://picsum.photos/250/350?random=6">
+                <h5>Interstellar</h5>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://picsum.photos/250/350?random=7">
+                <h5>Avatar</h5>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://picsum.photos/250/350?random=8">
+                <h5>Inception</h5>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://picsum.photos/250/350?random=9">
+                <h5>Joker</h5>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://picsum.photos/250/350?random=10">
+                <h5>Batman</h5>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://picsum.photos/250/350?random=6">
+                <h5>Interstellar</h5>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://picsum.photos/250/350?random=7">
+                <h5>Avatar</h5>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://picsum.photos/250/350?random=8">
+                <h5>Inception</h5>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://picsum.photos/250/350?random=9">
+                <h5>Joker</h5>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://picsum.photos/250/350?random=10">
+                <h5>Batman</h5>
+            </div>
+
+        </div>
+
+         <button class="slider-btn left-btn btn-left"
+            onclick="scrollLeftTop()">❮</button>
+
+        <button class="slider-btn right-btn"
+            onclick="scrollRightTop()">❯</button>
+
+    </div>
+
+</section>
+        <!-- Footer -->
+        <footer>
+            <h3>StreamX Hub</h3>
+            <p>Unlimited Movies, Anime & Entertainment</p>
+            <p>Designed By Ayush</p>
+        </footer>
+
+        <script src="./javascript/script.js"></script>
+
+    </body>
+
+    </html>
