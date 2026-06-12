@@ -81,4 +81,4 @@ searchInput.addEventListener("keyup", function () {
 
 // Initial Load
 
-showSlide();
+showSlide();    
